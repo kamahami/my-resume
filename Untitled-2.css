@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Zen Antique", serif;
+}
+body {
+  background: #a1c6ea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  background: #dae3e5;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin: 30px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+/*LEFT SIDE*/
+.container .left {
+  position: relative;
+  background: #04080f;
+  padding: 40px;
+  color: #fff;
+  text-align: center;
+}
+
+.picture {
+  width: 200px;
+  height: 200px;
+  clip-path: circle();
+  margin: auto;
+  padding-top: 0px;
+  display: block;
+  border: 2.6px solid #fff;
+  border-radius: 50%;
+}
+
+.header {
+  padding: 10px;
+  font-weight: 600;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+.quote {
+  font-size: 1em;
+  font-weight: 400;
+}
+/*SKILLS PART*/
+#skills {
+  padding-top: 20px;
+}
+.h2skills {
+  border-bottom: 1px solid #fff;
+  border-top: 1px solid #fff;
+  padding-bottom: 10px;
+  padding-top: 5px;
+
+  font-weight: 450;
+}
+h4 {
+  font-weight: 550;
+  font-size: 1.2rem;
+}
+.language {
+  color: #a1c6ea;
+  display: inline;
+  align-items: center;
+}
+.softwares {
+  color: #a1c6ea;
+  list-style-type: none;
+}
+/*CONTACT ME PART*/
+#contact {
+  padding-top: 30px;
+  text-align: center;
+  line-height: 30px;
+}
+.h2contact {
+  padding-bottom: 10px;
+  padding-top: 5px;
+  border-bottom: 1px solid #fff;
+  border-top: 1px solid #fff;
+  font-weight: 400;
+}
+.acontact {
+  text-decoration: none;
+  color: #a1c6ea;
+}
+.mediapic {
+  clip-path: circle();
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+/*RIGHT SIDE*/
+.container .right {
+  position: relative;
+}
+.aboutheading {
+  text-transform: uppercase;
+  padding: 70px 0px 10px 20px;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  font-weight: 350;
+  border-bottom: 1px solid #04080f;
+}
+.pabout {
+  padding: 10px 10px 10px 20px;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  font-weight: 250;
+}
+.pabout2 {
+  padding: 10px 10px 10px 20px;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+  font-weight: 850;
+}
+.ulabout {
+  padding: 0px 10px 10px 40px;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+  font-weight: 250;
+}
+.edu {
+  text-transform: uppercase;
+  padding: 70px 0px 10px 20px;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  font-weight: 350;
+  border-bottom: 1px solid #04080f;
+}
+.pedu {
+  padding: 10px 10px 10px 20px;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  font-weight: 250;
+}
+/*EXPIRIENCE PART*/
+.h2expirience {
+  text-transform: uppercase;
+  padding: 70px 0px 10px 20px;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  font-weight: 350;
+  border-bottom: 1px solid #04080f;
+}
+.span {
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  font-weight: 650;
+  padding: 10px 10px 5px 20px;
+}
+.p {
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+  font-weight: 250;
+  padding: 0px 10px 10px 20px;
+}
